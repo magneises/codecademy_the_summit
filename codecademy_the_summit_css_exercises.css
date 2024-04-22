@@ -1,0 +1,79 @@
+
+// all links styling
+a {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+//.nav-link styles
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #2176FF;
+  text-decoration: none;
+  border-left: 2px solid #0056b3;
+  border-bottom: 2px solid #0056b3;
+}
+
+.nav-link.logo {
+  text-decoration: none;
+}
+
+.nav-link.logo:hover {
+  text-decoration: none;
+  border-left: none;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #007bff;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.8)
+}
+
+.btn:active {
+  color: white;
+  background-color: rgb(200, 200, 200);
+}
+
+.activity:hover {
+  cursor: pointer;
+  color: #2176FF;
+  background-color: #ffffff;
+  border: 1px solid #2176FF;
+  font-size: 40px;
+}
+
+.activity:active {
+  color: #000000; /* Text color when pressed */
+  background-color: yellow; /* Background color when pressed */
+  border: 1px solid #2176FF; /* Border color when pressed */
+}
+
+
+
+
